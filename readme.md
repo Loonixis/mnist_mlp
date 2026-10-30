@@ -26,11 +26,3 @@ flowchart LR
     F --> G["Softmax<br/>probabilities for 0–9"]
 ```
 
-## Project Structure
-
-tiny-digit-brain/
-├── mlp.py       # network and training code
-├── README.md
-├── mnist\_train.csv    # local training data
-├── mnist\_test.csv     # local test data
-└── tiny\_digit\_brain.npz  # saved weights after training
