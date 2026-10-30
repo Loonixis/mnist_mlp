@@ -1,0 +1,17 @@
+# python files
+__pycache__/
+*.py[cod]
+
+# virtual environments
+.venv/
+venv/
+
+# mnist data and saved model
+mnist_train.csv
+mnist_test.csv
+tiny_digit_brain.npz
+
+# editor and operating system files
+.vscode/
+.idea/
+.DS_Store
